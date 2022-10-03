@@ -149,7 +149,7 @@ public class Basics {
 
         // Fill in the rest of the body here
 
-        for (int i = 0; i <= 7; i++){
+        for (int i = 0; i <= 6; i++){
             String[] oneWord = to_split.split(" ", 1);
             to_split = oneWord[1];
             ret.append(oneWord[0].charAt(0));
